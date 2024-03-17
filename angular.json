@@ -96,7 +96,7 @@
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
+                  "with": "src/environments/environment.ts"
                 }
               ]
             },
@@ -128,7 +128,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "chat21:build"
+            "browserTarget": "chat21:build",
+            "port": 4500
           },
           "configurations": {
             "production": {
